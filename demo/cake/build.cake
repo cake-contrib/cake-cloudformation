@@ -9,7 +9,7 @@ var target = Argument("target", "ScanPackages");
 
 
 
-Task("ScanPackages") 
+Task("CF Deploy") 
     .Does( async () =>
 {
     CloudFormationDeploy(new DeployArguments
