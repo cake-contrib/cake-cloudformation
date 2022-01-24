@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EF9150EB-C710-4BEB-9498-3F612365792C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cake.CloudFormation", "src\Cake.CloudFormation\Cake.CloudFormation.csproj", "{EA23D305-46A2-4405-A67D-E8D5F8D7E1E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{7F72CF76-E418-40C4-A000-8B7035FBC2F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{68ED5F6F-AA14-4C59-AD98-909FC9FB4CC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Build", "build\Build.csproj", "{FE6AD54F-D906-42DA-8231-56F3D84A7A82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cake", "cake", "{D0FAE6A2-5C1E-4B5E-A994-8B07C6A5CE48}"
+	ProjectSection(SolutionItems) = preProject
+		demo\cake\build.cake = demo\cake\build.cake
+		demo\frosting\template.yaml = demo\frosting\template.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frosting", "frosting", "{6C157423-BE12-4642-9B92-2EC386A10625}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Build", "demo\frosting\Build.csproj", "{43F38C58-960A-4220-B89D-C575F161AC2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA23D305-46A2-4405-A67D-E8D5F8D7E1E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA23D305-46A2-4405-A67D-E8D5F8D7E1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA23D305-46A2-4405-A67D-E8D5F8D7E1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA23D305-46A2-4405-A67D-E8D5F8D7E1E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6AD54F-D906-42DA-8231-56F3D84A7A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6AD54F-D906-42DA-8231-56F3D84A7A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6AD54F-D906-42DA-8231-56F3D84A7A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6AD54F-D906-42DA-8231-56F3D84A7A82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F38C58-960A-4220-B89D-C575F161AC2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F38C58-960A-4220-B89D-C575F161AC2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F38C58-960A-4220-B89D-C575F161AC2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F38C58-960A-4220-B89D-C575F161AC2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA23D305-46A2-4405-A67D-E8D5F8D7E1E3} = {EF9150EB-C710-4BEB-9498-3F612365792C}
+		{FE6AD54F-D906-42DA-8231-56F3D84A7A82} = {7F72CF76-E418-40C4-A000-8B7035FBC2F0}
+		{D0FAE6A2-5C1E-4B5E-A994-8B07C6A5CE48} = {68ED5F6F-AA14-4C59-AD98-909FC9FB4CC5}
+		{6C157423-BE12-4642-9B92-2EC386A10625} = {68ED5F6F-AA14-4C59-AD98-909FC9FB4CC5}
+		{43F38C58-960A-4220-B89D-C575F161AC2A} = {6C157423-BE12-4642-9B92-2EC386A10625}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16A5BDB0-079E-4CF2-AB35-5CCBF4CC232D}
+	EndGlobalSection
+EndGlobal
