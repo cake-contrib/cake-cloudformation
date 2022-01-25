@@ -37,7 +37,7 @@ Task("CF Deploy")
 1. Install the pacakge 
 
 ```
-dotnet add package Cake.CloudFormation --version 0.3.0
+dotnet add package Cake.CloudFormation --version [version]
 ```
 2. add the task as following 
 
