@@ -16,7 +16,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cake", "cake", "{D0FAE6A2-5C1E-4B5E-A994-8B07C6A5CE48}"
 	ProjectSection(SolutionItems) = preProject
 		demo\cake\build.cake = demo\cake\build.cake
-		demo\frosting\template.yaml = demo\frosting\template.yaml
+		demo\cake\template.yaml = demo\cake\template.yaml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frosting", "frosting", "{6C157423-BE12-4642-9B92-2EC386A10625}"
