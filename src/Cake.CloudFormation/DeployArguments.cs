@@ -11,7 +11,7 @@ namespace Cake.CloudFormation
         public string TemplateFile { get; set; }
         public string StackName { get; set; }
         public string S3Bucket { get; set; }
-        public string S3BucketPrefix { get; set; }
+        public string S3Prefix { get; set; }
         public string KmsKeyId { get; set; }
         public string RoleArn { get; set; }
         public bool ForceUpload { get; set; }
@@ -34,8 +34,8 @@ namespace Cake.CloudFormation
             if (S3Bucket != null)
                 builder.AppendSwitch("--s3-bucket", S3Bucket);
 
-            if (S3BucketPrefix != null)
-                builder.AppendSwitch("--s3-bucket-prefix", S3BucketPrefix);
+            if (S3Prefix != null)
+                builder.AppendSwitch("--s3-prefix", S3Prefix);
 
             if (KmsKeyId != null)
                 builder.AppendSwitch("--kms-key-id", KmsKeyId);
