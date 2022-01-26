@@ -12,7 +12,7 @@ namespace Cake.CloudFormation
 
         public string ToCommandKeyValuePairs(Dictionary<string, string> keyValuePairs)
         {
-            return string.Join(';', keyValuePairs.Select(kv => $"{kv.Key}={kv.Value}").ToArray());
+            return string.Join(' ', keyValuePairs.Select(kv => $"{kv.Key}={kv.Value}").ToArray());
         }
 
         public string ToCommandList(List<string> list)
