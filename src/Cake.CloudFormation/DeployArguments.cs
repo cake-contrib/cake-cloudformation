@@ -40,6 +40,9 @@ namespace Cake.CloudFormation
             if (KmsKeyId != null)
                 builder.AppendSwitch("--kms-key-id", KmsKeyId);
 
+            if (RoleArn != null)
+                builder.AppendSwitch("--role-arn", RoleArn);
+
             if (ForceUpload)
                 builder.Append("--force-upload");
 
