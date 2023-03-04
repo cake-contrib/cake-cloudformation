@@ -5,8 +5,8 @@
 		<NuspecProperties>ProjectUrl=$(projectUrl)</NuspecProperties>
 		<NuspecProperties>$(NuspecProperties);PackageProjectUrl=$(PackageProjectUrl)</NuspecProperties>
 		<NuspecProperties>$(NuspecProperties);authors=$(authors)</NuspecProperties>
-		<PackageProjectUrl>https://github.com/epbloxx/cake-cloudformation</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/epbloxx/cake-cloudformation</RepositoryUrl>
+		<PackageProjectUrl>https://github.dev/cake-contrib/cake-cloudformation/</PackageProjectUrl>
+		<RepositoryUrl>https://github.dev/cake-contrib/cake-cloudformation/</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<Description>CakeBuild plug-in to execute AWS cloud fromation CLI commands</Description>
 	</PropertyGroup>
