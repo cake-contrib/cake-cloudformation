@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
+	    <Authors>Zahy Hwary</Authors>
 		<TargetFrameworks>net6.0;netcoreapp3.1</TargetFrameworks>
 		<NuspecProperties>ProjectUrl=$(projectUrl)</NuspecProperties>
 		<NuspecProperties>$(NuspecProperties);PackageProjectUrl=$(PackageProjectUrl)</NuspecProperties>
@@ -9,9 +10,10 @@
 		<RepositoryUrl>https://github.dev/cake-contrib/cake-cloudformation/</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<Description>CakeBuild plug-in to execute AWS cloud fromation CLI commands</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReleaseNotes>https://github.com/cake-contrib/cake-cloudformation/releases</PackageReleaseNotes>
+		<PackageTags>cake;build;cake-build;script;addin;cake-addin;Cloudformation</PackageTags>
 	</PropertyGroup>
-
-	 
 
 	<ItemGroup>
 		<PackageReference Include="Cake.Core" Version="2.2.0" />
