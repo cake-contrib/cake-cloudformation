@@ -9,7 +9,7 @@
 		<PackageProjectUrl>https://github.dev/cake-contrib/cake-cloudformation/</PackageProjectUrl>
 		<RepositoryUrl>https://github.dev/cake-contrib/cake-cloudformation/</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
-		<Description>CakeBuild plug-in to execute AWS cloud fromation CLI commands</Description>
+		<Description>CakeBuild plug-in to execute AWS cloud formation CLI commands</Description>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageReleaseNotes>https://github.com/cake-contrib/cake-cloudformation/releases</PackageReleaseNotes>
 		<PackageTags>cake;build;cake-build;script;addin;cake-addin;Cloudformation</PackageTags>
